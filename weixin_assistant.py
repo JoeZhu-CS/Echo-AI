@@ -29,7 +29,7 @@ def call_deepseek_sync(prompt: str, system_prompt: str) -> str:
         "Content-Type": "application/json"
     }
     body = {
-        "model": "deepseek-chat",
+        "model": "deepseek-reasoner",
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user",   "content": prompt}
