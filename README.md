@@ -23,11 +23,9 @@
 1. [项目特点 / Features](#项目特点--features)  
 2. [环境要求 / Requirements](#环境要求--requirements)  
 3. [安装与运行 / Installation & Usage](#安装与运行--installation--usage)  
-5. [使用说明 / How to Use](#使用说明--how-to-use)  
-6. [数据安全与隐私 / Data Security & Privacy](#数据安全与隐私--data-security--privacy)  
-7. [贡献指南 / Contributing](#贡献指南--contributing)  
-8. [许可证 / License](#许可证--license)  
-9. [联系方式 / Contact](#联系方式--contact)  
+4. [使用说明 / How to Use](#使用说明--how-to-use)  
+5. [许可证 / License](#许可证--license)  
+6. [联系方式 / Contact](#联系方式--contact)  
 
 ---
 
@@ -71,11 +69,11 @@
 ##  安装与运行 / Installation & Usage
 
  
-- ChatSense 是一个基于 Python 的桌面应用，已编译为 Windows 下的独立可执行文件（.exe）。  
-- 用户无需安装 Python 环境或依赖，直接下载并运行即可。
+- Echo AI 是一个基于 Python 的桌面应用，已编译为 Windows 下的独立可执行文件（.exe）。  
+- 用户无需安装 Python 环境或依赖，直接下载并运行Echo AI.exe即可。
 
-- ChatSense has been compiled into a standalone Windows executable (`.exe`).  
-- No Python or dependencies are required. Simply download and run.
+- Echo AI has been compiled into a standalone Windows executable (`.exe`).  
+- No Python or dependencies are required. Simply download and run Echo AI.exe.
 
 
 ##  使用说明 / How to Use
@@ -97,11 +95,11 @@
 
 - **3.Select a mode under “Mode Settings”:**
 
-  - “Summarize Mode”: Generate only the summary.
+  - “摘要模式”: Generate only the summary.
 
-  - “Smart Reply Mode”: Generate only reply suggestions.
+  - “智能回复模式”: Generate only reply suggestions.
 
-  - “Both Mode”: Generate both summary and replies.
+  - “摘要+回复模式”: Generate both summary and replies.
 
 - **4.在“自定义参数设置”中输入：**
 
@@ -113,11 +111,11 @@
 
 - **4.Enter in “Custom Parameters”:**
 
-  - Fetch Count: Number of historical messages to fetch from WeChat.
+  - 抓取消息数: Number of historical messages to fetch from WeChat.
 
-  - User ID: Your WeChat nickname or unique identifier to prevent the model from replying to yourself.
+  - 用户 ID: Your WeChat nickname or unique identifier to prevent the model from replying to yourself.
 
-  - Reply Reference Count: Number of most recent messages to use as context for generating reply suggestions.
+  - 回复参考消息数: Number of most recent messages to use as context for generating reply suggestions.
 
 - **5.点击“开始”按钮，程序将：**
 
@@ -135,4 +133,13 @@
 
   - Display results in the tabs below for easy copy & paste.
 
+## 许可证 / License
+- 本项目采用 MIT 许可证。
+- This project is licensed under the MIT License.
 
+## 联系方式 / Contact
+- **作者 / Author：Joe Zhu**
+
+- **邮箱 / Email：joe.zhu@mail.utoronto.ca**
+
+- **GitHub：[https://github.com/yourusername](https://github.com/JoeZhu-CS)**
